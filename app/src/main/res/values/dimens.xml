@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="product_items_list_padding_left">8dp</dimen>
+    <dimen name="product_items_list_padding_right">8dp</dimen>
+
+    <dimen name="product_item_margin_left">4dp</dimen>
+    <dimen name="product_item_margin_right">4dp</dimen>
+
+    <dimen name="product_item_card_view_margin_bottom">24dp</dimen>
+    <dimen name="product_item_card_view_margin_left">4dp</dimen>
+    <dimen name="product_item_card_view_margin_right">4dp</dimen>
+
+    <dimen name="product_item_image_view_padding">6dp</dimen>
+
+    <dimen name="product_item_current_value_text_size">12sp</dimen>
+    <dimen name="product_item_current_value_margin_top">8dp</dimen>
+    <dimen name="product_item_current_value_margin_bottom">0dp</dimen>
+
+    <dimen name="product_item_name_text_size">11sp</dimen>
+    <dimen name="product_item_name_margin_top">3dp</dimen>
+    <dimen name="product_item_name_margin_bottom">0dp</dimen>
+
+    <dimen name="product_card_image_bg_radius">5pt</dimen>
+
+    <dimen name="product_item_favorite_max_width">18dp</dimen>
+    <dimen name="product_item_favorite_max_height">18dp</dimen>
+
+    <dimen name="product_item_detail_padding">12dp</dimen>
+
+    <dimen name="product_item_detail_current_value_text_size">16sp</dimen>
+    <dimen name="product_item_detail_text_size">14sp</dimen>
+
+    <dimen name="product_item_detail_text_margin_top">4dp</dimen>
+    <dimen name="product_item_detail_text_margin_bottom">8dp</dimen>
+
+
+</resources>

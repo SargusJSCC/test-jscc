@@ -1,0 +1,68 @@
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/product_item_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="0dp"
+        android:padding="0dp"
+        app:contentPadding="0dp"
+        app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/productItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/product_item_image_view"
+            android:layout_width="318dp"
+            android:layout_height="191dp"
+            android:contentDescription="@string/product_image"
+            app:layout_constraintBottom_toBottomOf="@+id/productItem"
+            app:layout_constraintBottom_toTopOf="@+id/currentValue"
+            app:layout_constraintDimensionRatio="6:4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/productItem"
+            app:layout_constraintTop_toTopOf="@+id/productItem" />
+
+        <TextView
+            android:id="@+id/currentValue"
+            style="@style/product_item_text_current_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginStart="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/name"
+            app:layout_constraintStart_toStartOf="@+id/productItem"
+            app:layout_constraintEnd_toEndOf="@+id/productItem"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintHorizontal_chainStyle="spread"/>
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/product_item_detail_terms_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="@+id/productItem"
+            app:layout_constraintEnd_toEndOf="@+id/productItem"
+            app:layout_constraintStart_toStartOf="@+id/productItem"
+            app:layout_constraintTop_toBottomOf="@+id/currentValue" />
+
+        <ImageView
+            android:id="@+id/favorite"
+            style="@style/product_item_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            android:contentDescription="@string/favorite"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,14 @@
+#PRUEBA TÉCNICA DE INGRESO
+
+Consumo de servicios REST
+Desarrollo con lenguaje - Kotlin
+Uso de una arquitectura - VIPER
+
+
+
+
+
+
+
+
+

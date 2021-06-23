@@ -1,0 +1,98 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+
+
+    <style name="product_items_list" parent="AppTheme">
+        <item name="android:paddingStart">@dimen/product_items_list_padding_left</item>
+        <item name="android:paddingEnd">@dimen/product_items_list_padding_right</item>
+    </style>
+
+    <style name="product_item_card_view" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/product_item_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/product_item_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/product_item_card_view_margin_bottom</item>
+    </style>
+
+    <style name="product_item_image_view" parent="AppTheme">
+        <item name="android:padding">@dimen/product_item_image_view_padding</item>
+        <item name="android:background">@drawable/product_item_image_rounded_bg</item>
+    </style>
+
+    <style name="product_item_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_product_item_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+    </style>
+
+    <style name="product_item_text_name" parent="product_item_text">
+        <item name="android:textSize">@dimen/product_item_name_text_size</item>
+        <item name="android:layout_marginTop">@dimen/product_item_name_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/product_item_name_margin_bottom</item>
+    </style>
+
+    <style name="product_item_text_current_amount" parent="product_item_text">
+        <item name="android:textSize">@dimen/product_item_current_value_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/product_item_current_value_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/product_item_current_value_margin_bottom</item>
+    </style>
+
+    <style name="product_item_favorite">
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/baseline_favorite_black_18</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:tint">@color/color_product_item_favorite</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:alpha">.6</item>
+    </style>
+
+
+    <style name="product_item_detail">
+        <item name="android:paddingLeft">@dimen/product_item_detail_padding</item>
+        <item name="android:paddingRight">@dimen/product_item_detail_padding</item>
+    </style>
+
+    <style name="product_item_detail_image_view" parent="product_item_image_view">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+
+    <style name="product_item_detail_text_current_amount" parent="product_item_text_current_amount">
+        <item name="android:textSize">@dimen/product_item_detail_current_value_text_size</item>
+    </style>
+
+    <style name="product_item_detail_text" parent="product_item_text">
+        <item name="android:textSize">@dimen/product_item_detail_text_size</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_marginTop">@dimen/product_item_detail_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/product_item_detail_text_margin_bottom</item>
+    </style>
+
+    <style name="product_item_detail_terms_text" parent="product_item_detail_text">
+        <item name="android:textSize">@dimen/product_item_detail_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>
